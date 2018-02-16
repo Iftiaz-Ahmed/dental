@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+font-family: 'Roboto', sans-serif;
+}
+.top-menu{
+    background: #f9f9f9;
+}
+.list-inline-item a{
+    color: #a0a0a0;
+}
+
+.list-inline-item a:hover{
+    color: #f69165;
+}
+
+.top-social .list-inline {
+    margin: 0;
+    padding: 10px 10px;
+    border-right: 1px solid #a0a0a080;
+    border-left: 1px solid #a0a0a080;
+    width: 172px;
+}
+
+.top-nav i{
+    color: #f69165;
+
+}
+
+.top-nav i span{
+    color: #a0a0a0;
+}
+.top-nav a:hover{
+    text-decoration: none;
+}
+.top-nav i span:hover{
+    color: #f69165;
+}
+.bg-light{
+    padding: 0 !important;
+
+}
+.list-inline{
+    margin-bottom: 0; 
+}
+.form-control{
+        border: 0;
+    background: transparent;
+ padding-top: 0;
+}
+
+.input-group-text{
+    border: 0;
+    background: transparent;
+}
+
+.top-nav .list-inline-item{
+border-right: 1px solid #a0a0a080;
+padding-right:  15px;
+}
+
+.input-group > .form-control, .input-group > .custom-select, .input-group > .custom-file{
+    padding: 0;
+}
+
+.top-nav {
+text-align: right;
+padding:  5px 0;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin: 0;
+}
+
+header i{
+    float: left;
+    width: 20%;
+}
+header h3{
+    font-size: 18px;
+}
+header p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+header [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{
+        font-size: 40px;
+    color: #f69165;
+}
+.contents{
+    float: right;
+    width: 80%;
+    padding-left: 5px;
+}
+header .col-sm{
+    padding: 0;
+    margin: 0;
+}
+header{
+  padding: 15px;
+}
+
+.menu .bg-light{
+    background: #20cee0!important;
+    margin: 0 !important;
+}
+
+.menu a{
+    font-size: 18px;
+}
+.menu{}
+.menu .cart span{
+    background: #f69165;
+    height: 20px;
+    width: 20px;
+    vertical-align: 20px;
+    display:  inline-block;
+    text-align:  center;
+    border-radius:  30px;
+    font-size:  12px;
+    position:  absolute;
+    transform:  translate(-50%, -20%);
+}
+.menu i{
+    position:  relative;
+}
+.right-list{
+    margin-left: 20px;
+}
+.appointment{
+    text-align: center;
+background: #f69165;
+    
+transform: skew(-10deg);
+}
+.menu li{
+    padding: 10px 0;
+}
+.appointment-text{
+    transform: skew(10deg) !important;
+    display:  inline-block;
+    padding:  0 5px;
+}
+
+.transition-timer-carousel .carousel-caption {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 4%, rgba(0,0,0,0.5) 32%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(4%,rgba(0,0,0,0.1)), color-stop(32%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.transition-timer-carousel .carousel-caption .carousel-caption-header {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+@media (min-width: 970px) {
+    /* Lower the font size of the carousel caption header so that our caption
+    doesn't take up the full image/slide on smaller screens */
+    .transition-timer-carousel .carousel-caption .carousel-caption-header {
+        font-size: 36px;
+    }
+}
+.transition-timer-carousel .carousel-indicators {
+    bottom: 0px;
+    margin-bottom: 5px;
+}
+.transition-timer-carousel .carousel-control {
+    z-index: 11;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    height: 5px;
+    background-color: #5cb85c;
+    width: 0%;
+    margin: -5px 0px 0px 0px;
+    border: none;
+    z-index: 11;
+    position: relative;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar.animate{
+    /* We make the transition time shorter to avoid the slide transitioning
+    before the timer bar is "full" - change the 4.25s here to fit your
+    carousel's transition time */
+    -webkit-transition: width 4.25s linear;
+    -moz-transition: width 4.25s linear;
+    -o-transition: width 4.25s linear;
+    transition: width 4.25s linear;
+}
+
+.slider .row{
+    
+/* background:  url(../images/slider-bg.jpg); */
+    
+background-size:  cover;
+    
+background-repeat:  no-repeat;
+}
+
+.slider h1{
+    background: #f69165;
+    display: inline-block;
+    color: white;
+    font-size: 46px;
+    padding:  5px 20px 5px 5px;
+}
+.slider h2{
+    margin-top: 10rem;
+    background: #20cee0;
+    display:  inline-block;
+    padding: 5px 35px 5px 10px;
+    color:  white;
+    font-size:  36px;
+}
+.slider p{
+    font-size:  18px;
+    margin-bottom:  40px;
+}
+.slider button{
+    background: #20cee0;
+    border: 2px solid transparent;
+    font-size: 16px;
+    margin-bottom:  5px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+.slider button:hover{
+    background: #f69165;
+    border: 2px solid #f69165;
+
+}
+.slider{
+   
+background:  url(../images/slider-bg.jpg);
+   
+background-size: cover;
+   
+background-repeat: no-repeat;
+}
+.pic{
+        min-width: 100%;
+        max-width: 100%;
+        padding-top: 30px;
+        width:  454px;
+}
+.camera_wrap{
+    margin: 0;
+}
+.agency-section{}
+.agency-section h2{
+    font-size:  36px;
+    padding-top:  5rem;
+    font-weight: 600;
+    padding-left:  15px;
+}
+.agency-section h3{
+    font-size:  22px;
+}
+.agency-section p{
+    width: 75%;
+    margin-bottom: 2rem;
+    font-size:  16px;
+}
+.agency-section .doc{
+    max-width: 100%;
+    min-width:  100%;
+    padding-left: 3rem;
+    padding-top:  5rem;
+}
+.doctors{
+
+overflow:  hidden;
+
+text-align:  center;
+
+background: #e7e7e7;
+}
+.doctors h1{
+    padding-top:  2rem;
+    padding-bottom:  2rem;
+    color: #20cee0;
+    font-weight:  900;
+    font-size:  72px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes color{
+    0%{color: #20cee0;}
+    100%{color: #f69165;}
+}
+
+.carousel-indicators li{
+    background-color: #f69165;
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+    padding: 15px;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgba(52, 73, 94,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+form{
+    text-align: left;
+}
+
+footer h2{
+        text-align: left;
+}
